@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+Base64 Encoder/Decoder
+======================
 
-You can use the [editor on GitHub](https://github.com/DevUtilsApp/base64decode.app/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Encode and decode a Base64 string without online tools. [DevUtils.app](https://devutils.app) allows you to quickly encode and decode Base64 string without any internet connection.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p align="center">
+  <img src="https://devutils.app/assets/demo-base64-dark.png" alt="DevUtils.app: Base64 Encoder/Decoder macOS app"/>
+  <br/>
+  <a href="https://devutils.app/">🚀  Download</a> | <a href="https://devutils.app/demo">🎬  Demo & Screenshots</a> | <a href="https://github.com/DevUtilsApp/DevUtils-app">📝  View source</a>
+</p>
 
-### Markdown
+Quickly decode a Base64 string
+------------------------------
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can decode a Base64 string from anywhere in your macOS (terminal, in email, web browser,...).**DevUtils** will inspect your clipboard content and automatically select the Base64 Encoder/Decoder tool if the content is a Base64 string. Activate the app by:
 
-```markdown
-Syntax highlighted code block
+* Copy text ► Press ⌃⌥⌘Space `(Or your own customized hotkey, up to you)`
+* Copy text ► Click to icon <img src="https://devutils.app/menu-icon-dark.png" alt="DevUtils.app status bar icon" width="28px" /> in the status bar
+* Select text ► Right-click ► "Inspect in DevUtils.app" `(This menu appears after you install the app)`
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+Input
+-----
 
-1. Numbered
-2. List
+Enter your string in the input textbox, select Encode or Decode based on your need.
 
-**Bold** and _Italic_ and `Code` text
+Output
+------
 
-[Link](url) and ![Image](src)
-```
+The encoded/decoded string will be displayed in the bottom text view. Click "Copy" to copy the output string to your clipboard.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Options
+-------
 
-### Jekyll Themes
+When you activate the app, **DevUtils** will inspect your clipboard content and automatically select the Base64 Encoder/Decoder tool if the content is a Base64 string. You can disable this automatic feature by unticking the option in the setting panel (the gear icon).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DevUtilsApp/base64decode.app/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![DevUtils.app: Base64 Encoder/Decoder macOS app](https://devutils.app/assets/settings/setting-base64-encoder-decoder.png)
